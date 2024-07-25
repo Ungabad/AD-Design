@@ -1,7 +1,7 @@
 :root {
   --primary-color: #efeda4 !important;
   --secondary-color: #b20505 !important;
-  --tertiary-color: #9e03c1 !important;
+  --tertiary-color: #c59454 !important;
 }
 /* Google Fonts */
 .libre-baskerville-regular {
@@ -66,7 +66,7 @@
 
 /* Navbar Start */
 #navbar {
-  background-color: var(--primary-color);
+  background-color: white;
 }
 #logo {
   font-size: 36px;
@@ -108,7 +108,7 @@
   width: 90%;
   height: 70vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)),
-    url(https://images.pexels.com/photos/4846307/pexels-photo-4846307.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    url(...);
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 10px;
@@ -131,26 +131,6 @@
   font-weight: 500;
   text-shadow: 0px 1px 1px var(--secondary-color);
   margin-top: 5px;
-}
-.changecontent::after {
-  content: " ";
-  color: var(--tertiary-color);
-  text-shadow: 0px 1px 1px var(--secondary-color);
-  animation: changetext 10s infinite linear;
-}
-@keyframes changetext {
-  0% {
-    content: "Cozumel";
-  }
-  25% {
-    content: "Guongzhou";
-  }
-  50% {
-    content: "Japan";
-  }
-  100% {
-    content: "Korea";
-  }
 }
 .home .content p {
   color: var(--primary-color);
@@ -236,14 +216,14 @@
   color: var(--primary-color);
   border-radius: 5px;
 }
-.carousel-item {
+/* .carousel-item {
   height: 100%;
   margin-top: 50px;
   margin-bottom: 50px;
 }
 .carousel-inner img {
   margin: auto;
-}
+} */
 
 /* Changing the Color of the Arrows */
 .carousel-control-prev-icon,
@@ -276,10 +256,7 @@
 
 /* About Section Start */
 .about {
-  padding: 50px;
   margin-top: 50px;
-  margin-bottom: 50px;
-  background: var(--primary-color);
 }
 .image {
 }
@@ -295,11 +272,6 @@
 }
 .about p {
   font-weight: 500;
-}
-@media (max-width: 765px) {
-  .about {
-    padding: 0px;
-  }
 }
 .parallax {
   /* The image used */
@@ -320,8 +292,8 @@
 #contact .btn-primary {
   text-align: center;
   margin: 50px;
-  background: var(--tertiary-color);
-  color: var(--primary-color);
+  background: var(--primary-color);
+  color: var(--secondary-color);
   border: none;
   border-radius: 5px;
   padding: 10px;
@@ -336,7 +308,6 @@
 #contact h1 {
   font-weight: 600;
   padding-top: 30px;
-  text-shadow: 0px 1px 1px var(--secondary-color);
 }
 #contact h1 span {
   color: var(--tertiary-color);
@@ -345,13 +316,18 @@
   padding: 10px;
   border-radius: 5px;
   font-size: 20px;
-  background: var(--secondary-color);
-  color: var(--primary-color);
+  background: var(--primary-color);
+  color: var(--secondary-color);
   margin: 0 0 10px 10px;
   transition: 0.5s ease;
   cursor: pointer;
 }
 .social-links i:hover {
   background: var(--tertiary-color);
+}
+.credit a {
+  color: var(--tertiary-color);
+  text-decoration: none;
+  text-shadow: 0px 1px 1px var(--secondary-color);
 }
 /* Contact Section End */
