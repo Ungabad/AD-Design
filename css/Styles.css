@@ -106,11 +106,12 @@
 /* Home Section Start */
 .home {
   width: 90%;
-  height: 70vh;
+  height: 40vh;
+  background-color: var(--tertiary-color);
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)),
-    url(...);
+    url(../Images/Logo4.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   border-radius: 10px;
   margin: 0 auto;
   margin-top: 100px;
@@ -173,6 +174,9 @@
 /* Home Section End */
 
 /* Places Section Start */
+.places {
+  margin-top: 100px;
+}
 .main-text h1 {
   text-align: center;
   margin-top: 30px;
@@ -256,7 +260,7 @@
 
 /* About Section Start */
 .about {
-  margin-top: 50px;
+  margin-top: 100px;
 }
 .image {
 }
@@ -284,14 +288,16 @@
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 /* About Section End */
 
 /* Contact Section Start */
+.contact {
+  margin-top: 100px;
+}
 #contact .btn-primary {
   text-align: center;
-  margin: 50px;
   background: var(--primary-color);
   color: var(--secondary-color);
   border: none;
@@ -307,7 +313,6 @@
 }
 #contact h1 {
   font-weight: 600;
-  padding-top: 30px;
 }
 #contact h1 span {
   color: var(--tertiary-color);
