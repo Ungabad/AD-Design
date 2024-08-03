@@ -1,0 +1,15 @@
+body {
+  background-image: url("../Images/satin-background.png");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+header {
+  padding-top: 400px;
+}
+section {
+  padding-top: 450px;
+}
+footer {
+  padding-top: 450px;
+}
