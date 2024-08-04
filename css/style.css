@@ -1,15 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-gold-500 {
+    background-color: #FFD700;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Dancing Script', cursive;
+}
 body {
-  background-image: url("../Images/satin-background.png");
-  background-size: cover;
-  background-position: center;
-  text-align: center;
+    font-family: 'Merriweather', serif;
 }
-header {
-  padding-top: 400px;
+.marble {
+    background-image: url("/images/marble-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-section {
-  padding-top: 450px;
-}
-footer {
-  padding-top: 450px;
+.marble h1 {
+    font-weight: 900;
 }
