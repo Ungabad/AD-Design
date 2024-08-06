@@ -19,3 +19,12 @@ body {
 .marble h1 {
     font-weight: 900;
 }
+
+@media (max-width: 465px) { 
+    .text-2xl {
+    font-size: 16px; !important
+    }
+    header a {
+    font-size: 10px;
+    }
+}
